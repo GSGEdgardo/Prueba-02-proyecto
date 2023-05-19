@@ -1,0 +1,58 @@
+body{
+    background: #222233;
+    color: #aaccff;
+    text-align: center;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+.input_label{
+    padding: 8px;
+    margin: 0 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+}
+
+.input_label:hover{
+    background: #20003573;
+    border-radius: 7px;
+}
+
+.input_submit, .edit, .delete{
+    padding: 7px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.input_submit:hover, .edit:hover, .delete.hover{
+    background: #ddd;
+}
+
+th{
+    font-weight: 100;
+    padding: 20px 100px;
+}
+
+.data-request{
+    display:flex;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+.crud-table{
+    padding: 10px 20px;
+    border: 2px solid #aaccff;
+    border-radius: 7px; 
+}
