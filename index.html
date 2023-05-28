@@ -15,15 +15,21 @@
     <section class="crud">
         <article>
             <h2 class="crud-title">Agregar Producto</h2>
+            <div class="container-fluid">
+                <form class="d-flex">
+                    <input class="form-control me-2 light-table-filter" data-table="crud-template" type="text" placeholder="Buscar"><hr>
+                </form>
+            </div>
             <form class="crud-form">
-                <input class="input_label" type="text" name="codigo" placeholder="código del producto" required>
-                <input class="input_label" type="text" name="nombre" placeholder="nombre del producto" required>
-                <input class="input_label" type="text" name="descripcion" placeholder="descripción del producto">
+                <input class="input_label" type="text" name="code" placeholder="código del producto" required>
+                <input class="input_label" type="text" name="name" placeholder="nombre del producto" required>
+                <input class="input_label" type="text" name="description" placeholder="descripción del producto">
                 <input type="submit" value="Guardar">
                 <input type="hidden" name="id">
             </form>
         </article>
         
+
         <article class="data-request">
             <table class="crud-table">
                 <thead>

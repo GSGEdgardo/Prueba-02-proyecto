@@ -56,3 +56,18 @@ th{
     border: 2px solid #aaccff;
     border-radius: 7px; 
 }
+
+.light-table-filter {
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .light-table-filter:hover {
+    background: #20003573;
+    border-radius: 7px;
+  }
